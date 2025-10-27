@@ -2487,7 +2487,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "New_Library:HC-SR04"
+		(symbol "New_Lib:HC-SR04"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -5561,82 +5561,6 @@
 		)
 	)
 	(symbol
-		(lib_id "New_Library:HC-SR04")
-		(at 41.91 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "35d743f2-73bf-42fb-8517-5351dbb3459c")
-		(property "Reference" "U1"
-			(at 53.34 75.5649 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 53.34 78.1049 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 41.91 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 41.91 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "51f6f242-ed74-448a-912b-607c765585d6")
-		)
-		(pin "4"
-			(uuid "2f71bd43-cc05-4db1-9968-38ae57a5148b")
-		)
-		(pin "3"
-			(uuid "d57da545-6f32-4016-af9b-2557b61edeaa")
-		)
-		(pin "2"
-			(uuid "221add4d-62c7-488a-8f46-d542870f8cb3")
-		)
-		(instances
-			(project ""
-				(path "/49012bda-c03b-43e6-a517-08a7b55620e8"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 45.72 93.98 0)
 		(unit 1)
@@ -6174,6 +6098,79 @@
 			(project ""
 				(path "/49012bda-c03b-43e6-a517-08a7b55620e8"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:Q_NPN_BCE")
+		(at 223.52 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5af57915-ee76-4e68-9d01-13292470d759")
+		(property "Reference" "Q1"
+			(at 228.6 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2SC4811"
+			(at 228.6 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 223.52 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "NPN transistor, base/collector/emitter"
+			(at 223.52 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "65b54de6-b817-40b0-8c86-46d5012e49ea")
+		)
+		(pin "2"
+			(uuid "6b5a1b1b-20a3-4b5d-8975-79d7a197405a")
+		)
+		(pin "1"
+			(uuid "f6d06a7e-18ad-4109-a29d-d4f2a9cbe116")
+		)
+		(instances
+			(project ""
+				(path "/49012bda-c03b-43e6-a517-08a7b55620e8"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -7429,79 +7426,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:Q_NPN_BCE")
-		(at 223.52 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c6e1bc08-baa2-435b-b662-e7acc6fec664")
-		(property "Reference" "Q1"
-			(at 228.6 116.8399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2SC4811"
-			(at 228.6 119.3799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 228.6 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 223.52 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "NPN transistor, base/collector/emitter"
-			(at 223.52 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fc7db15e-5258-4074-b70d-b600ed76ac02")
-		)
-		(pin "3"
-			(uuid "72ce348b-ac8c-4d7f-8f6e-c347c8444c2d")
-		)
-		(pin "1"
-			(uuid "7adf2ec0-97db-48ca-b38e-3f9619510081")
-		)
-		(instances
-			(project ""
-				(path "/49012bda-c03b-43e6-a517-08a7b55620e8"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND1")
 		(at 196.85 139.7 0)
 		(unit 1)
@@ -7830,6 +7754,82 @@
 			(project "miniFanForSoldering"
 				(path "/49012bda-c03b-43e6-a517-08a7b55620e8"
 					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "New_Lib:HC-SR04")
+		(at 41.91 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e65b9dab-cf60-4565-aa0e-1cb2af53ba52")
+		(property "Reference" "U1"
+			(at 53.34 75.5649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 53.34 78.1049 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "7f8c18cd-eeb8-4d2a-8df4-0e4e848d7d43")
+		)
+		(pin "1"
+			(uuid "3b818da8-abd9-42f4-ac2e-4ecc0e41ec35")
+		)
+		(pin "2"
+			(uuid "402184d3-b2f2-48d0-94fd-0d80e12fb873")
+		)
+		(pin "4"
+			(uuid "f75bc2c9-a95a-4d08-8e39-a9b944d0e6e5")
+		)
+		(instances
+			(project ""
+				(path "/49012bda-c03b-43e6-a517-08a7b55620e8"
+					(reference "U1")
 					(unit 1)
 				)
 			)
